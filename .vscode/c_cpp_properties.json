@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "defines": [],
+            "compilerPath": "/usr/bin/clang-14",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/include/c++/11",
+                "/usr/include/x86_64-linux-gnu/c++/11",
+                "/opt/ros/humble/include/**",
+                "/home/davidcely/ros2_humble/install/**"
+            ]
+        }
+    ],
+    "version": 4
+}

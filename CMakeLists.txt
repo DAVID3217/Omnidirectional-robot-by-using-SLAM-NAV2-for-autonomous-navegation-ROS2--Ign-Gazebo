@@ -31,7 +31,7 @@ install(TARGETS
   tf_broadcaster
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY launch urdf meshes rviz worlds src scripts config
+install(DIRECTORY launch urdf meshes rviz worlds src scripts config sdf
   DESTINATION share/${PROJECT_NAME})
 
 
