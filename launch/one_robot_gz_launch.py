@@ -50,7 +50,7 @@ def generate_launch_description():
         ]
     )
     
-    xacro_file = os.path.join(this_pkg_path, 'urdf', robot_model_2+'.urdf') #.urdf
+    xacro_file = os.path.join(this_pkg_path, 'urdf', robot_model_2+'.xacro') #.urdf
 
     doc = xacro.process_file(xacro_file,
         mappings={'base_color' : robot_base_color})

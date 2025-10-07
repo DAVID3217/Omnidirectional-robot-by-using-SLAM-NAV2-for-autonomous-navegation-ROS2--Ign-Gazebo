@@ -6,9 +6,10 @@ amcl:
     alpha3: 0.2
     alpha4: 0.2
     alpha5: 0.2
-    base_frame_id: "r1/base_link"
-    odom_frame_id: "odom"
-    scan_topic: "/r1/scan"
+    base_frame_id: "r1/base_footprint"
+    odom_frame_id: "/odom"
+    scan_topic: "/scan"
+    global_frame_id: "/map"
     min_particles: 500
     max_particles: 2000
     update_min_d: 0.25

@@ -23,12 +23,12 @@ find_package(tf2_ros REQUIRED)
 
 set(dependencies "rclcpp" "geometry_msgs" "nav_msgs" "tf2" "tf2_ros")
 
-add_executable(tf_broadcaster src/tf_broadcaster.cpp)
-ament_target_dependencies(tf_broadcaster ${dependencies})
+add_executable(tf_broadcaster_2 src/tf_broadcaster_2.cpp)
+ament_target_dependencies(tf_broadcaster_2 ${dependencies})
 
 
 install(TARGETS
-  tf_broadcaster
+  tf_broadcaster_2
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch urdf meshes rviz worlds src scripts config sdf
