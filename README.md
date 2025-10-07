@@ -1,17 +1,4 @@
 
-# ign_robots_examples
-
-This ROS 2 package is used to simulate different environments and mobile robots in Ignition Gazebo. This packages is focused on showing the most common mobile robots types and sensors.<br>
-
-**NOTE:** this repo was tested on Ubuntu 22.04 LTS, with ROS 2 Humble and Gazebo Fortress.
-
-**Author:** C. Mauricio Arteaga-Escamilla from "Robotica Posgrado"<br>
-**Contact email:** cmauricioae8@gmail.com<br>
-**LinkedIn:** https://linkedin.com/in/cruz-mauricio-arteaga-escamilla/<br>
-
-For more information, please refer to "Robotica Posgrado" YouTube channel: https://www.youtube.com/channel/UCNmZp0rCuWxqaKVljny2zyg
-
-
 
 ## List of robots and plugins (using URDF)
 
