@@ -151,7 +151,7 @@ def generate_launch_description():
             bridge,
             tf_broadcaster_odom,
             slam_toolbox,
-            #nav2_bringup,
+            nav2_bringup,
             open_rviz
 
         ]
