@@ -4,7 +4,7 @@
   <name>ign_robots_examples</name>
   <version>0.1.0</version>
   <description>Package to simulate different mobile robots in Ignition Gazebo with ROS 2</description>
-  <maintainer email="cmauricioae8@gmail.com">C. Mauricio Arteaga-Escamilla from 'Robotica Posgrado' (Youtube channel)</maintainer>
+  <maintainer email="davidsanty27@gmail.com"> David Santiago Cely</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
